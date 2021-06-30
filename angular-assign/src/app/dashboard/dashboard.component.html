@@ -1,0 +1,7 @@
+<h2>Users</h2>
+<div class="User-Menu">
+  <a *ngFor="let user of userList"
+  routerLink="/detail/{{user.name}}">
+    {{user.name}}
+  </a>
+</div>
